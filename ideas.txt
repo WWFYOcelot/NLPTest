@@ -1,0 +1,15 @@
+Need to change text format to separate locations, tags, & data
+Have tags influence data processing somehow?
+
+Steps:
+1. identify any data pre-processing we'd like to do
+2. identify which techniques we'd like to apply
+3. tune model(s) to produce best result
+
+1. Need to identify context. Need to see which NLP tools are best for this. Possibilities:
+    a. Masked language models: These predict a masked word based on sentence context. We use this by masking the 'disaster' word, and seeing if the model will predict a disaster or not.
+    b. Contextual word embeddings: Used in BERT, ELMo
+    c. Transformer models, like BERT or GPT
+    d. Recurrent Neural Networks
+    e. N-grams: capture local context by looking at a fixed number of adjacent words ; since we aren't using long sentences, this could be useful.
+2. May need different word processing? Need to understand tokenization

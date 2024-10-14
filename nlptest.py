@@ -6,7 +6,7 @@ from sklearn import feature_extraction, linear_model, model_selection, preproces
 
 train_df = pd.read_csv("nlp-getting-started/train.csv")
 test_df = pd.read_csv("nlp-getting-started/test.csv")
-print(train_df[train_df["target"] == 0]["text"].values[1])
+print(train_df[train_df["target"] == 1]["text"].values[6])
 
 count_vectorizer = feature_extraction.text.CountVectorizer()
 
