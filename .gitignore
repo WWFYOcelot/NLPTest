@@ -1,1 +1,7 @@
 /nlpenv/
+/__pycache__/
+/NLPTest/NLPTest/
+/fine_tuned_bert/
+*.safetensors
+*.json
+*.txt
