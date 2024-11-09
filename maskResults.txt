@@ -1,0 +1,31 @@
+Result length is: 3263
+Result length is: 7613
+length of procssed_data: 7613
+length of masked_data: 7613
+length of predicted_list: 7613
+Target: 1 Predicted word: terrorism --> Sentence: our deeds are the reason of this #<mask> may allah forgive us all
+Target: 1 Predicted word: fire --> Sentence: forest <mask> near la ronge sask. canada
+Target: 0 Predicted word: warnings --> Sentence: all residents asked to 'shelter in place' are being notified by officers. no other <mask> or shelter in place orders are expected
+Target: 1 Predicted word: evacuation --> Sentence: 13,000 people receive #wildfires <mask> orders in california
+Target: 1 Predicted word: fire --> Sentence: just got sent this photo from ruby #alaska as smoke from #wild<mask>s pours into a school
+Target: 1 Predicted word: fire --> Sentence: #rocky<mask> update => california hwy. 20 closed in both directions due to lake county fire - #cafire #wildfires
+Target: 0 Predicted word: rain --> Sentence: #flood #<mask> heavy rain causes flash flooding of streets in manitou, colorado springs areas
+Target: 0 Predicted word: cabin --> Sentence: i'm on top of the hill and i can see a <mask> in the woods...
+Target: 1 Predicted word: emergency --> Sentence: there's an <mask> evacuation happening now in the building across the street
+Target: 1 Predicted word: storm --> Sentence: i'm afraid that the <mask> is coming to our area...
+Target: 0 Predicted word: null --> Sentence: three people died from the heat wave so far
+Target: 0 Predicted word: snow --> Sentence: haha south tampa is getting <mask>ed hah- wait a second i live in south tampa what am i gonna do what am i gonna do fvck #flooding
+Target: 1 Predicted word: storm --> Sentence: #raining #<mask>ing #florida #tampabay #tampa 18 or 19 days. i've lost count
+Target: 0 Predicted word: we --> Sentence: #<mask> in bago myanmar #we arrived bago
+Target: 1 Predicted word: accident --> Sentence: damage to school bus on 80 in multi car <mask> #breaking
+Target: 0 Predicted word: null --> Sentence: what's up man?
+Target: 0 Predicted word: null --> Sentence: i love fruits
+Target: 0 Predicted word: null --> Sentence: summer is lovely
+Target: 0 Predicted word: null --> Sentence: my car is so fast
+Target: 0 Predicted word: null --> Sentence: what a goooooooaaaaaal!!!!!!
+Target: 0 Predicted word: null --> Sentence: this is ridiculous....
+F1 Score: 0.4143
+Precision: 0.6020
+Recall: 0.3158
+['tp: 0.13568895310652831 fp: 0.08971496125049258 tn: 0.4806252462892421 fn: 0.2938394850912912']
+Accuracy: 0.6163141993957704

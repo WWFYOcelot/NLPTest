@@ -4,4 +4,4 @@
 /fine_tuned_bert/
 *.safetensors
 *.json
-*.txt
+/NLPTest/*.txt

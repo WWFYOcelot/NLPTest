@@ -1,0 +1,236 @@
+NLPTest/model-1lr-1e : labelled1.csv
+True Negative: 54
+False Positive: 3
+False Negative: 11
+True Positive: 32
+Precision: 0.9142857142857143 Recall: 0.7441860465116279
+F1 Score: 0.8205128205128205
+---------------------------------------------------------------
+NLPTest/model-1lr-1e : labelled2.csv
+True Negative: 45
+False Positive: 11
+False Negative: 18
+True Positive: 26
+Precision: 0.7027027027027027 Recall: 0.5909090909090909
+F1 Score: 0.6419753086419753
+---------------------------------------------------------------
+
+=================================================================
+NLPTest/model-1lr-3e : labelled1.csv
+True Negative: 49
+False Positive: 8
+False Negative: 11
+True Positive: 32
+Precision: 0.8 Recall: 0.7441860465116279
+F1 Score: 0.7710843373493976
+---------------------------------------------------------------
+NLPTest/model-1lr-3e : labelled2.csv
+True Negative: 45
+False Positive: 11
+False Negative: 13
+True Positive: 31
+Precision: 0.7380952380952381 Recall: 0.7045454545454546
+F1 Score: 0.7209302325581395
+---------------------------------------------------------------
+
+=================================================================
+NLPTest/model-1lr-5e : labelled1.csv
+True Negative: 49
+False Positive: 8
+False Negative: 9
+True Positive: 34
+Precision: 0.8095238095238095 Recall: 0.7906976744186046
+F1 Score: 0.8
+---------------------------------------------------------------
+NLPTest/model-1lr-5e : labelled2.csv
+True Negative: 45
+False Positive: 11
+False Negative: 13
+True Positive: 31
+Precision: 0.7380952380952381 Recall: 0.7045454545454546
+F1 Score: 0.7209302325581395
+---------------------------------------------------------------
+
+=================================================================
+NLPTest/model-1lr-10e : labelled1.csv
+True Negative: 53
+False Positive: 4
+False Negative: 9
+True Positive: 34
+Precision: 0.8947368421052632 Recall: 0.7906976744186046
+F1 Score: 0.8395061728395061
+---------------------------------------------------------------
+NLPTest/model-1lr-10e : labelled2.csv
+True Negative: 43
+False Positive: 13
+False Negative: 14
+True Positive: 30
+Precision: 0.6976744186046512 Recall: 0.6818181818181818
+F1 Score: 0.6896551724137931
+---------------------------------------------------------------
+
+=================================================================
+
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+NLPTest/model-2lr-1e : labelled1.csv
+True Negative: 52
+False Positive: 5
+False Negative: 11
+True Positive: 32
+Precision: 0.8648648648648649 Recall: 0.7441860465116279
+F1 Score: 0.8
+---------------------------------------------------------------
+NLPTest/model-2lr-1e : labelled2.csv
+True Negative: 46
+False Positive: 10
+False Negative: 15
+True Positive: 29
+Precision: 0.7435897435897436 Recall: 0.6590909090909091
+F1 Score: 0.6987951807228916
+---------------------------------------------------------------
+
+=================================================================
+NLPTest/model-2lr-3e : labelled1.csv
+True Negative: 53
+False Positive: 4
+False Negative: 12
+True Positive: 31
+Precision: 0.8857142857142857 Recall: 0.7209302325581395
+F1 Score: 0.7948717948717948
+---------------------------------------------------------------
+NLPTest/model-2lr-3e : labelled2.csv
+True Negative: 47
+False Positive: 9
+False Negative: 14
+True Positive: 30
+Precision: 0.7692307692307693 Recall: 0.6818181818181818
+F1 Score: 0.7228915662650602
+---------------------------------------------------------------
+
+=================================================================
+NLPTest/model-2lr-5e : labelled1.csv
+True Negative: 51
+False Positive: 6
+False Negative: 11
+True Positive: 32
+Precision: 0.8421052631578947 Recall: 0.7441860465116279
+F1 Score: 0.7901234567901234
+---------------------------------------------------------------
+NLPTest/model-2lr-5e : labelled2.csv
+True Negative: 45
+False Positive: 11
+False Negative: 14
+True Positive: 30
+Precision: 0.7317073170731707 Recall: 0.6818181818181818
+F1 Score: 0.7058823529411765
+---------------------------------------------------------------
+
+=================================================================
+NLPTest/model-2lr-10e : labelled1.csv
+True Negative: 50
+False Positive: 7
+False Negative: 12
+True Positive: 31
+Precision: 0.8157894736842105 Recall: 0.7209302325581395
+F1 Score: 0.7654320987654321
+---------------------------------------------------------------
+NLPTest/model-2lr-10e : labelled2.csv
+True Negative: 45
+False Positive: 11
+False Negative: 16
+True Positive: 28
+Precision: 0.717948717948718 Recall: 0.6363636363636364
+F1 Score: 0.6746987951807228
+---------------------------------------------------------------
+
+=================================================================
+
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+NLPTest/model-3lr-1e : labelled1.csv
+True Negative: 56
+False Positive: 1
+False Negative: 15
+True Positive: 28
+Precision: 0.9655172413793104 Recall: 0.6511627906976745
+F1 Score: 0.7777777777777778
+---------------------------------------------------------------
+NLPTest/model-3lr-1e : labelled2.csv
+True Negative: 48
+False Positive: 8
+False Negative: 16
+True Positive: 28
+Precision: 0.7777777777777778 Recall: 0.6363636363636364
+F1 Score: 0.7
+---------------------------------------------------------------
+
+=================================================================
+NLPTest/model-3lr-3e : labelled1.csv
+True Negative: 53
+False Positive: 4
+False Negative: 10
+True Positive: 33
+Precision: 0.8918918918918919 Recall: 0.7674418604651163
+F1 Score: 0.825
+---------------------------------------------------------------
+NLPTest/model-3lr-3e : labelled2.csv
+True Negative: 46
+False Positive: 10
+False Negative: 13
+True Positive: 31
+Precision: 0.7560975609756098 Recall: 0.7045454545454546
+F1 Score: 0.7294117647058823
+---------------------------------------------------------------
+
+=================================================================
+NLPTest/model-3lr-5e : labelled1.csv
+True Negative: 51
+False Positive: 6
+False Negative: 11
+True Positive: 32
+Precision: 0.8421052631578947 Recall: 0.7441860465116279
+F1 Score: 0.7901234567901234
+---------------------------------------------------------------
+NLPTest/model-3lr-5e : labelled2.csv
+True Negative: 44
+False Positive: 12
+False Negative: 13
+True Positive: 31
+Precision: 0.7209302325581395 Recall: 0.7045454545454546
+F1 Score: 0.7126436781609196
+---------------------------------------------------------------
+
+=================================================================
+NLPTest/model-3lr-10e : labelled1.csv
+True Negative: 49
+False Positive: 8
+False Negative: 12
+True Positive: 31
+Precision: 0.7948717948717948 Recall: 0.7209302325581395
+F1 Score: 0.7560975609756098
+---------------------------------------------------------------
+NLPTest/model-3lr-10e : labelled2.csv
+True Negative: 47
+False Positive: 9
+False Negative: 15
+True Positive: 29
+Precision: 0.7631578947368421 Recall: 0.6590909090909091
+F1 Score: 0.7073170731707317
+---------------------------------------------------------------
+
+=================================================================
+
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+NLPTest/model-1lr-1e : 0.7312440645773979
+NLPTest/model-1lr-3e : 0.7460072849537686
+NLPTest/model-1lr-5e : 0.7604651162790698
+NLPTest/model-1lr-10e : 0.7645806726266496
+
+NLPTest/model-2lr-1e : 0.7493975903614458
+NLPTest/model-2lr-3e : 0.7588816805684275
+NLPTest/model-2lr-5e : 0.74800290486565
+NLPTest/model-2lr-10e : 0.7200654469730774
+
+NLPTest/model-3lr-1e : 0.7388888888888889
+NLPTest/model-3lr-3e : 0.7772058823529411
+NLPTest/model-3lr-5e : 0.7513835674755215
+NLPTest/model-3lr-10e : 0.7317073170731707
