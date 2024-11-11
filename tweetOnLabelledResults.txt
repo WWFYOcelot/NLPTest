@@ -1,0 +1,234 @@
+bertweet/tweet-1lr-1e : labelled1.csv
+True Negative: 50
+False Positive: 7
+False Negative: 14
+True Positive: 29
+Precision: 0.8055555555555556 Recall: 0.6744186046511628
+F1 Score: 0.7341772151898734
+---------------------------------------------------------------
+bertweet/tweet-1lr-1e : labelled2.csv
+True Negative: 50
+False Positive: 6
+False Negative: 16
+True Positive: 28
+Precision: 0.8235294117647058 Recall: 0.6363636363636364
+F1 Score: 0.717948717948718
+---------------------------------------------------------------
+
+=================================================================
+bertweet/tweet-1lr-3e : labelled1.csv
+True Negative: 53
+False Positive: 4
+False Negative: 14
+True Positive: 29
+Precision: 0.8787878787878788 Recall: 0.6744186046511628
+F1 Score: 0.7631578947368421
+---------------------------------------------------------------
+bertweet/tweet-1lr-3e : labelled2.csv
+True Negative: 49
+False Positive: 7
+False Negative: 14
+True Positive: 30
+Precision: 0.8108108108108109 Recall: 0.6818181818181818
+F1 Score: 0.7407407407407407
+---------------------------------------------------------------
+
+=================================================================
+bertweet/tweet-1lr-5e : labelled1.csv
+True Negative: 49
+False Positive: 8
+False Negative: 13
+True Positive: 30
+Precision: 0.7894736842105263 Recall: 0.6976744186046512
+F1 Score: 0.7407407407407407
+---------------------------------------------------------------
+bertweet/tweet-1lr-5e : labelled2.csv
+True Negative: 46
+False Positive: 10
+False Negative: 13
+True Positive: 31
+Precision: 0.7560975609756098 Recall: 0.7045454545454546
+F1 Score: 0.7294117647058823
+---------------------------------------------------------------
+
+=================================================================
+bertweet/tweet-1lr-10e : labelled1.csv
+True Negative: 47
+False Positive: 10
+False Negative: 12
+True Positive: 31
+Precision: 0.7560975609756098 Recall: 0.7209302325581395
+F1 Score: 0.7380952380952381
+---------------------------------------------------------------
+bertweet/tweet-1lr-10e : labelled2.csv
+True Negative: 46
+False Positive: 10
+False Negative: 14
+True Positive: 30
+Precision: 0.75 Recall: 0.6818181818181818
+F1 Score: 0.7142857142857143
+---------------------------------------------------------------
+
+=================================================================
+
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+bertweet/tweet-2lr-1e : labelled1.csv
+True Negative: 47
+False Positive: 10
+False Negative: 12
+True Positive: 31
+Precision: 0.7560975609756098 Recall: 0.7209302325581395
+F1 Score: 0.7380952380952381
+---------------------------------------------------------------
+bertweet/tweet-2lr-1e : labelled2.csv
+True Negative: 47
+False Positive: 9
+False Negative: 15
+True Positive: 29
+Precision: 0.7631578947368421 Recall: 0.6590909090909091
+F1 Score: 0.7073170731707317
+---------------------------------------------------------------
+
+=================================================================
+bertweet/tweet-2lr-3e : labelled1.csv
+True Negative: 45
+False Positive: 12
+False Negative: 12
+True Positive: 31
+Precision: 0.7209302325581395 Recall: 0.7209302325581395
+F1 Score: 0.7209302325581395
+---------------------------------------------------------------
+bertweet/tweet-2lr-3e : labelled2.csv
+True Negative: 43
+False Positive: 13
+False Negative: 13
+True Positive: 31
+Precision: 0.7045454545454546 Recall: 0.7045454545454546
+F1 Score: 0.7045454545454546
+---------------------------------------------------------------
+
+=================================================================
+bertweet/tweet-2lr-5e : labelled1.csv
+True Negative: 51
+False Positive: 6
+False Negative: 13
+True Positive: 30
+Precision: 0.8333333333333334 Recall: 0.6976744186046512
+F1 Score: 0.759493670886076
+---------------------------------------------------------------
+bertweet/tweet-2lr-5e : labelled2.csv
+True Negative: 46
+False Positive: 10
+False Negative: 15
+True Positive: 29
+Precision: 0.7435897435897436 Recall: 0.6590909090909091
+F1 Score: 0.6987951807228916
+---------------------------------------------------------------
+
+=================================================================
+bertweet/tweet-2lr-10e : labelled1.csv
+True Negative: 48
+False Positive: 9
+False Negative: 12
+True Positive: 31
+Precision: 0.775 Recall: 0.7209302325581395
+F1 Score: 0.7469879518072289
+---------------------------------------------------------------
+bertweet/tweet-2lr-10e : labelled2.csv
+True Negative: 45
+False Positive: 11
+False Negative: 14
+True Positive: 30
+Precision: 0.7317073170731707 Recall: 0.6818181818181818
+F1 Score: 0.7058823529411765
+---------------------------------------------------------------
+
+=================================================================
+
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+bertweet/tweet-3lr-1e : labelled1.csv
+True Negative: 47
+False Positive: 10
+False Negative: 11
+True Positive: 32
+Precision: 0.7619047619047619 Recall: 0.7441860465116279
+F1 Score: 0.7529411764705882
+---------------------------------------------------------------
+bertweet/tweet-3lr-1e : labelled2.csv
+True Negative: 42
+False Positive: 14
+False Negative: 10
+True Positive: 34
+Precision: 0.7083333333333334 Recall: 0.7727272727272727
+F1 Score: 0.7391304347826086
+---------------------------------------------------------------
+
+=================================================================
+bertweet/tweet-3lr-3e : labelled1.csv
+True Negative: 44
+False Positive: 13
+False Negative: 11
+True Positive: 32
+Precision: 0.7111111111111111 Recall: 0.7441860465116279
+F1 Score: 0.7272727272727273
+---------------------------------------------------------------
+bertweet/tweet-3lr-3e : labelled2.csv
+True Negative: 42
+False Positive: 14
+False Negative: 12
+True Positive: 32
+Precision: 0.6956521739130435 Recall: 0.7272727272727273
+F1 Score: 0.7111111111111111
+---------------------------------------------------------------
+
+=================================================================
+bertweet/tweet-3lr-5e : labelled1.csv
+True Negative: 46
+False Positive: 11
+False Negative: 10
+True Positive: 33
+Precision: 0.75 Recall: 0.7674418604651163
+F1 Score: 0.7586206896551724
+---------------------------------------------------------------
+bertweet/tweet-3lr-5e : labelled2.csv
+True Negative: 43
+False Positive: 13
+False Negative: 13
+True Positive: 31
+Precision: 0.7045454545454546 Recall: 0.7045454545454546
+F1 Score: 0.7045454545454546
+---------------------------------------------------------------
+
+=================================================================
+bertweet/tweet-3lr-10e : labelled1.csv
+True Negative: 50
+False Positive: 7
+False Negative: 10
+True Positive: 33
+Precision: 0.825 Recall: 0.7674418604651163
+F1 Score: 0.7951807228915663
+---------------------------------------------------------------
+bertweet/tweet-3lr-10e : labelled2.csv
+True Negative: 44
+False Positive: 12
+False Negative: 13
+True Positive: 31
+Precision: 0.7209302325581395 Recall: 0.7045454545454546
+F1 Score: 0.7126436781609196
+---------------------------------------------------------------
+
+=================================================================
+
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+bertweet/tweet-1lr-1e : 0.7260629665692957
+bertweet/tweet-1lr-3e : 0.7519493177387915
+bertweet/tweet-1lr-5e : 0.7350762527233115
+bertweet/tweet-1lr-10e : 0.7261904761904763
+bertweet/tweet-2lr-1e : 0.7227061556329849
+bertweet/tweet-2lr-3e : 0.712737843551797
+bertweet/tweet-2lr-5e : 0.7291444258044838
+bertweet/tweet-2lr-10e : 0.7264351523742028
+bertweet/tweet-3lr-1e : 0.7460358056265984
+bertweet/tweet-3lr-3e : 0.7191919191919192
+bertweet/tweet-3lr-5e : 0.7315830721003135
+bertweet/tweet-3lr-10e : 0.7539122005262429

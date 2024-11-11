@@ -5,3 +5,4 @@
 *.safetensors
 *.json
 /NLPTest/*.txt
+*.bin

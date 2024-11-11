@@ -1,6 +1,6 @@
 import torch
 from torch.utils.data import DataLoader, Dataset
-from data import dataset
+from bert_code.data import dataset
 
 class CustomTextDataset(Dataset):
     def __init__(self, tokenized_data):

@@ -35,7 +35,7 @@ def classify_text(text):
 
     return predicted_class, probabilities
 
-from wordlist import split_data
+from mask_model.wordlist import split_data
 text = split_data("nlp-getting-started/test.csv")
 # target_vals = []
 # predicted_vals = []
