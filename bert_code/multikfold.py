@@ -6,7 +6,6 @@ import pandas as pd
 from tqdm import tqdm
 
 # Load the fine-tuned model and tokenizer
-model_name = 'NLPTest/model-3lr-10e'
 tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
 
 # Define device
@@ -29,52 +28,49 @@ def preprocess_text(text):
     )
     return encoded['input_ids'].to(device), encoded['attention_mask'].to(device)
 
-# Different fold configurations
-folds = [3, 5, 10]
 
-for k in folds:
-    print(f"\nEvaluating with k={k} folds:")
-    kf = KFold(n_splits=k)
-    f1_scores = []
+# Open file for writing results
+with open('bert_code/kfoldvalresults.txt', 'a') as file:
+    # Loop over different learning rates and epoch values
+    for x in (1, 2, 3):  # Learning rates or similar parameter variations
+        for y in (1, 3, 5, 10):  # Epochs or similar parameter variations
+            # Define model name with learning rate and epochs
+            model_name = f'bertweet/tweet-{x}lr-{y}e'
+            file.write(f"Model : BERT-{x}lr-{y}e\n")
+            # Different fold configurations
+            folds = [3, 5, 10]
 
-    for train_index, val_index in kf.split(texts):
-        # Split data
-        train_texts, val_texts = texts[train_index], texts[val_index]
-        train_labels, val_labels = labels[train_index], labels[val_index]
-        
-        # Initialize model for each fold
-        model = BertForSequenceClassification.from_pretrained(model_name).to(device)
-        # model.train()
+            for k in folds:
+                print(f"\nEvaluating with k={k} folds:")
+                kf = KFold(n_splits=k)
+                f1_scores = []
 
-        # Training (Placeholder - include your training loop if needed)
-        # optimizer = torch.optim.Adam(model.parameters(), lr=1e-5)
-        # epochs = 2
-        # for epoch in range(epochs):
-        #     for text, label in zip(train_texts, train_labels):
-        #         input_ids, attention_mask = preprocess_text(text)
-        #         label = torch.tensor([label]).to(device)
-        #         optimizer.zero_grad()
-        #         outputs = model(input_ids=input_ids, attention_mask=attention_mask, labels=label)
-        #         loss = outputs.loss
-        #         loss.backward()
-        #         optimizer.step()
+                for train_index, val_index in kf.split(texts):
+                    # Split data
+                    train_texts, val_texts = texts[train_index], texts[val_index]
+                    train_labels, val_labels = labels[train_index], labels[val_index]
+                    
+                    # Initialize model for each fold
+                    model = BertForSequenceClassification.from_pretrained(model_name).to(device)
 
-        # Validation
-        model.eval()
-        val_preds = []
-        with torch.no_grad():
-            for text in val_texts:
-                input_ids, attention_mask = preprocess_text(text)
-                outputs = model(input_ids=input_ids, attention_mask=attention_mask)
-                logits = outputs.logits
-                pred = torch.argmax(logits, dim=1).item()
-                val_preds.append(pred)
+                    # Validation
+                    model.eval()
+                    val_preds = []
+                    with torch.no_grad():
+                        for text in val_texts:
+                            input_ids, attention_mask = preprocess_text(text)
+                            outputs = model(input_ids=input_ids, attention_mask=attention_mask)
+                            logits = outputs.logits
+                            pred = torch.argmax(logits, dim=1).item()
+                            val_preds.append(pred)
 
-        # Calculate F1 score for this fold
-        fold_f1 = f1_score(val_labels, val_preds)
-        f1_scores.append(fold_f1)
-        print(f"F1 Score for fold {len(f1_scores)}: {fold_f1}")
+                    # Calculate F1 score for this fold
+                    fold_f1 = f1_score(val_labels, val_preds)
+                    f1_scores.append(fold_f1)
+                    file.write(f"F1 Score for fold {len(f1_scores)}: {fold_f1}\n")
 
-    # Average F1 score across all folds
-    average_f1 = sum(f1_scores) / len(f1_scores)
-    print(f"Average F1 Score for k={k}: {average_f1}")
+                # Average F1 score across all folds
+                average_f1 = sum(f1_scores) / len(f1_scores)
+                file.write(f"Average F1 Score for k={k}: {average_f1}\n")
+        file.write("===============================================")
+    file.write("|||||||||||||||||||||||||||||||||||||||||||||||||||")
