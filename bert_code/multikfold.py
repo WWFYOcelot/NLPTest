@@ -35,7 +35,7 @@ with open('bert_code/kfoldvalresults.txt', 'a') as file:
     for x in (1, 2, 3):  # Learning rates or similar parameter variations
         for y in (1, 3, 5, 10):  # Epochs or similar parameter variations
             # Define model name with learning rate and epochs
-            model_name = f'bertweet/tweet-{x}lr-{y}e'
+            model_name = f'bert_models/model-{x}lr-{y}e'
             file.write(f"Model : BERT-{x}lr-{y}e\n")
             # Different fold configurations
             folds = [3, 5, 10]
