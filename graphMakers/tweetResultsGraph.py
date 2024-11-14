@@ -34,11 +34,11 @@ ax.axhline(avg_f1_labelled2, color='#F17D48', linestyle='--', label=f"Average (l
 
 
 # Labels, title, and y-axis range
-ax.set_xlabel("Model")
-ax.set_ylabel("F1 Score")
-ax.set_title("F1 Scores of BERTweet Models Fine-Tuned on the Disaster Tweets Dataset")
+ax.set_xlabel("Model", fontsize=12)
+ax.set_ylabel("F1 Score", fontsize=12)
 ax.set_xticks(x)
-ax.set_xticklabels(models, rotation=45)
+ax.set_xticklabels(models, rotation=45, fontsize=12)
+ax.tick_params(axis='y', labelsize=12)  # Increase font size of y-axis labels
 
 ax.set_ylim(0.6, 0.8)  # Set y-axis range from 0.6 to 1.0
 ax.legend()

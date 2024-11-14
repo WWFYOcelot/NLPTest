@@ -33,10 +33,10 @@ ax.axhline(avg_f1_labelled1, color='#2A5D78', linestyle='--', label=f"Average (l
 ax.axhline(avg_f1_labelled2, color='#F6AA54', linestyle='--', label=f"Average (labelled2): {avg_f1_labelled2:.3f}", linewidth=3)
 
 # Labels, title, and y-axis range
-ax.set_xlabel("Model")
-ax.set_ylabel("F1 Score")
+ax.set_xlabel("Model", fontsize=12)
+ax.set_ylabel("F1 Score", fontsize=12)
 ax.set_xticks(x)
-ax.set_xticklabels(models, rotation=45)
+ax.set_xticklabels(models, rotation=45, fontsize=12)
 
 ax.set_ylim(0.6, 0.85)  # Set y-axis range from 0.6 to 1.0
 ax.legend()
