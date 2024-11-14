@@ -1,0 +1,14 @@
+bertweet/best_model_with_scheduler4 : labelled1.csv
+True Negative: 49
+False Positive: 8
+False Negative: 11
+True Positive: 32
+Precision: 0.8 Recall: 0.7441860465116279
+F1 Score: 0.7710843373493976
+bertweet/best_model_with_scheduler4 : labelled2.csv
+True Negative: 47
+False Positive: 9
+False Negative: 13
+True Positive: 31
+Precision: 0.775 Recall: 0.7045454545454546
+F1 Score: 0.7380952380952381

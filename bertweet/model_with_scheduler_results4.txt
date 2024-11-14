@@ -1,0 +1,12 @@
+Model: BERTweet with LR=1e-05, Batch Size=16, Epochs=3, Scheduler=OneCycle
+Accuracy: 87.20%
+              precision    recall  f1-score   support
+
+     Class 0       0.87      0.91      0.89       871
+     Class 1       0.88      0.82      0.85       652
+
+    accuracy                           0.87      1523
+   macro avg       0.87      0.86      0.87      1523
+weighted avg       0.87      0.87      0.87      1523
+
+=================================================================
